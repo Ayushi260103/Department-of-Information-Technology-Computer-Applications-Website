@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    font-family: serif !important;
+    background-color: #221813 !important;
+    color: #fff !important;
+}
+
+h1 {
+    font-family: 'Lora', serif !important;
+    font-size: 45px;
+    padding-bottom: 2%;
+}
+
+p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+/*---Navigation---*/
+
+#nav {
+    text-align: left;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+/*------------------------------*/
+#content{
+    padding: 5%;
+}
+.icon {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: rgb(253, 251, 251);
+    transition: transform 0.5s;
+    font-size: 25px;
+}
+
+.social-icon:hover {
+    transform: translateY(-10px);
+}
+
+.social-icon.fa-facebook:hover {
+    color: rgb(83, 158, 228);
+}
+
+.social-icon.fa-youtube:hover {
+    color: rgb(190, 39, 39);
+}
+
+.social-icon.fa-twitter:hover {
+    color: yellow;
+}
+
+.social-icon.fa-linkedin:hover {
+    color: blue;
+}

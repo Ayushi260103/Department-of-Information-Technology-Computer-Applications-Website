@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    text-align: center;
+    color: #fff !important;
+    background-color: #3b322e !important;
+}
+
+h1 {
+    font-family: 'Lora', serif !important;
+    font-size: 50px !important;
+    text-align: center !important;
+}
+h3{
+    text-align: center !important;
+}
+.year-head{
+    text-align: left !important;
+}
+p {
+    font-size: 15px;
+}
+
+h5 {
+    text-align: center;
+    padding: 1%;
+    font-size: 20px;
+    font-family: serif !important;
+}
+
+h3,
+h4 {
+    padding-bottom: 1%;
+    font-family: serif !important;
+}
+
+/*---Navigation---*/
+
+#nav {
+    text-align: left;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+#content{
+    padding: 2%;
+}
+table {
+    text-align: center;
+    border: 3px solid black;
+    height: 50%;
+    width: 70%;
+}
+
+th,
+td,
+tr {
+    text-align: center !important;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: #221813;
+}
+
+#content {
+    margin: 4% 2%;
+    text-align: left;
+}
+
+.carousel-inner {
+    padding: 2%;
+    background-color: #221813;
+    box-shadow: 8px 8px 10px 10px #38393a;
+    border: 2px solid black;
+}
+
+/* .carousel-item.program{
+    padding: 2%;
+}
+.carousel-item.web-d{
+    padding: 3.35%;
+}
+.carousel-item.communication{
+    padding: 3.7%;
+} */
